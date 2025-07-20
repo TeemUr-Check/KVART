@@ -23,8 +23,8 @@
 
 ## **Инструкция**
 
-1) Установить uv:
-ввести в консоль: pip install uv
+**1) Установить uv:**
+Ввести в консоль: pip install uv
 2) Установить langflow:
 uv pip install langflow
 3) Запустить langflow:
