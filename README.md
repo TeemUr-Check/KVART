@@ -1,5 +1,4 @@
-# KVART
-ОКБ-15 Members:
+## **KVART++ members** 
  - Тимур Баженов - teamlead
  - Кирилл Протасов - frontend
  - Алексей Патраков - dev
