@@ -22,3 +22,14 @@
 - **Frontend**: html
 
 ## **Инструкция**
+
+установить uv:
+pip install uv
+установить langflow:
+uv pip install langflow
+запустить langflow:
+uv run langflow run
+открыть langflow по ссылке, которая будет в консоли
+загрузить JSON файл нейросети
+загрузить в нейросеть файлы и API ключи
+в html файле поменять 131-136 строки на то, что предлагает langflow в "Share" -> "Embed into site"
