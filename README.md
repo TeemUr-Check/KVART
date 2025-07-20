@@ -25,7 +25,7 @@
 
 1) [Установить uv](https://pypi.org/project/uv/).\
 Ввести в консоль следующую команду: pip install uv
-2) [Установить langflow](https://pypi.org/project/langflow/).\ 
+2) [Установить langflow](https://pypi.org/project/langflow/).
 Ввести в консоль комнаду: uv pip install langflow
 3) Запустить langflow, используя команду:
 uv run langflow run
