@@ -20,3 +20,5 @@
 - **LLM**: Mistral
 - **Vector DB**: Chroma
 - **Frontend**: html
+
+## **Инструкция**
