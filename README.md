@@ -19,7 +19,7 @@
 - **Backend**: Python
 - **LLM**: Mistral
 - **Vector DB**: Chroma
-- **Frontend**: html
+- **Frontend**: HTML + CSS
 
 ## **Инструкция**
 
@@ -27,9 +27,9 @@
 ввести в консоль: pip install uv
 2) Установить langflow:
 uv pip install langflow
-запустить langflow:
+3) Запустить langflow:
 uv run langflow run
-открыть langflow по ссылке, которая будет в консоли
-загрузить JSON файл нейросети
-загрузить в нейросеть файлы и API ключи
-в html файле поменять 131-136 строки на то, что предлагает langflow в "Share" -> "Embed into site"
+4) Открыть langflow по ссылке, которая будет в консоли
+5) Загрузить JSON файл нейросети
+6) Загрузить в нейросеть файлы документации и API ключи
+7) В html файле поменять 131-136 строки на то, что предлагает langflow в "Share" -> "Embed into site"
