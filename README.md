@@ -25,11 +25,11 @@
 
 1) [Установить uv](https://pypi.org/project/uv/).
 Ввести в консоль следующую команду: pip install uv
-2) Установить langflow. Ввести в консоль комнаду:
+2) [Установить langflow](https://pypi.org/project/langflow/). Ввести в консоль комнаду:
 uv pip install langflow
 3) Запустить langflow, используя команду:
 uv run langflow run
 4) Открыть langflow по ссылке, которая будет в консоли
 5) Загрузить JSON файл нейросети
 6) Загрузить в нейросеть файлы документации и API ключи
-7) В .html файле поменять 131-136 строки на то, что предлагает langflow в "Share" -> "Embed into site"
+7) В index.html поменять 131-136 строки на то, что предлагает langflow в "Share" -> "Embed into site"
