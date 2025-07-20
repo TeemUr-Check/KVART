@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DocSerfer</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <style>
+        /* Общие стили */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Шапка сайта */
+        header {
+            background-color: #34495e;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Навигационное меню */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        /* Основной контент */
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        /* Подзаголовки и списки */
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Контактная информация */
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 15px 20px;
+            margin-top: 40px;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <table width="100%">
+            <tr>
+                <td width="99%"><center><h1>DocSerfer</h1></center></td>
+                <td><img src="logo.png" width="50" height="50"></td>
+            </tr>
+        </table>
+        <nav>
+            <a href="#about">О проекте</a>
+            <a href="#searcher">Поисковик</a>
+            <a href="#technologies">Технологии</a>
+            <a href="https://drive.yadro.com/s/65jAKm8PcKLxkid" target="_blank">Документация</a>
+            <a href="#contact">Контакты</a>
+            <a href="https://github.com/TeemUr-Check/KVART" target="_blank">GitHub проекта</a>
+            <a href="" target="_blank">Telegram бот</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Чатбот -->
+        <section id="searcher">
+            <h2>Поисковик по документации Tatlin.Unifed Gen2</h2>
+            <table>
+                <tr>
+                    <td>Задайте интересующий вас вопрос нейросети: </td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
+                        <langflow-chat
+                            window_title="DocSerf"
+                            flow_id="bddc4185-816d-435b-ad67-f1771ea31402"
+                            host_url="http://localhost:7860">
+                        </langflow-chat>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- О проекте -->
+        <section id="about">
+            <h2>О проекте</h2>
+            <p>Проект <b>DocSerfer</b> — это инновационный проект, использующий возможности нейросетей на базе <b>MistralAI</b> для удобной и эффективной работы с технической документацией <b>Tatlin.Unified Gen2</b> — системы хранения данных (СХД) от компании <b>YADRO</b>.</p>
+            <p><b>Основные возможности:</b></p>
+            <ul>
+                <li><b>Быстрый поиск информации</b> - нейросеть анализирует документацию и предоставляет точные ответы на запросы, экономя время специалистов.</li>
+                <li><b>Умная обработка запросов</b> - понимает технические термины и контекст, помогая находить нужные данные даже по сложным вопросам.</li>
+                <li><b>Автоматизация рутинных задач</b> - извлекает ключевую информацию, генерирует выжимки и подсказки для работы с СХД.</li>
+                <li><b>Интуитивное взаимодействие</b> - простой интерфейс, позволяющий быстро получать ответы без глубокого изучения документации.</li>
+            </ul>
+            <p><b>DocSerfer</b> сочетает передовые технологии <b>искусственного интеллекта</b> и глубокое понимание <b>инфраструктуры хранения данных</b>, делая работу с документацией <b>YADRO</b> максимально удобной и быстрой.</p>
+            <p><i>Используйте силу нейросетей — работайте с документацией умнее!</i></p>
+        </section>
+
+        <!-- Технологии -->
+        <section id="technologies">
+            <h2>Используемые технологии</h2>
+            <ul>
+                <li>LangFlow — создание LLM и AI агента.</li>
+                <li>HTML и CSS — для создания сайта.</li>
+                <li>GitHub — контроль версий и синхронизация данных.</li>
+            </ul>
+        </section>
+
+        <!-- Контакты -->
+        <section id="contact">
+            <h2>Контакты и команда разработчиков</h2>
+            <p>Если у вас есть вопросы или предложения, свяжитесь с нами:</p>
+            <p>Корпоративный Email: </p>
+            <p>Или в Telegram: </p>
+            <p><a href="https://t.me/robikinobi" target="_blank" style="color: #000000">Судаков Роберт</a> - разработчик LLM и AI агента</p>
+            <p><a href="https://t.me/KirillProtasow" target="_blank" style="color: #000000">Протасов Кирилл</a> - разработчик сайта и его дизайна</p>
+            <p><a href="https://t.me/TeamUrCheck" target="_blank" style="color: #000000">Баженов Тимур</a> - тимлид</p>
+            <p><a href="https://t.me/Alpatrakov2009" target="_blank" style="color: #000000">Алексей Патраков</a> - инженер</p>
+            <p><a href="https://t.me/Koopich" target="_blank" style="color: #000000">Новичков Владислав</a> - разработчик сайта и его дизайна</p>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        &copy; 2025 DocSerfer. Все права защищены.
+    </footer>
+</body>
+</html>
