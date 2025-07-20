@@ -17,7 +17,7 @@
 
 ## **Технологии**  
 - **Backend**: Python
-- **LLM**: Mistral
+- **LLM**: MistralAI
 - **Vector DB**: Chroma
 - **Frontend**: HTML + CSS
 
