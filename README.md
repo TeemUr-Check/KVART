@@ -23,7 +23,7 @@
 
 ## **Инструкция**
 
-1) [Установить uv](https://pypi.org/project/uv/).
+1) [Установить uv](https://pypi.org/project/uv/).\
 Ввести в консоль следующую команду: pip install uv
 2) [Установить langflow](https://pypi.org/project/langflow/). Ввести в консоль комнаду:
 uv pip install langflow
