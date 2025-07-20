@@ -1,11 +1,10 @@
 # KVART
-ОКБ-15
-Members:
-Тимур Баженов - teamlead
-Кирилл Протасов - frontend
-Алексей Патраков - dev
-Роберт Судаков - LLM
-Владислав Новичков - backend
+ОКБ-15 Members:
+ - Тимур Баженов - teamlead
+ - Кирилл Протасов - frontend
+ - Алексей Патраков - dev
+ - Роберт Судаков - LLM
+ - Владислав Новичков - frontend
 # Tatlin Unified Documentation Assistant  
 
 Интеллектуальный RAG-агент для поиска ответов в технической документации СХД **Tatlin Unified**.  
