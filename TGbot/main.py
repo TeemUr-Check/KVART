@@ -22,8 +22,8 @@ bot = Bot(token=os.getenv("TELEGRAM_BOT_TOKEN"))
 dp = Dispatcher()
 
 # LangFlow API configuration
-LANGFLOW_API_KEY = os.getenv("sk-HD60fbsNWCkNivtgCP1LPH9FIIP0K0XOPKCBbz1YcsA")
-LANGFLOW_API_URL = "http://localhost:7860/api/v1/run/adecbbe7-7ffd-4638-9d39-59849f5975da"
+LANGFLOW_API_KEY = os.getenv("ВАШ API-KEY")
+LANGFLOW_API_URL = "ВАШ API_URL"
 
 async def call_langflow_api(message_text: str):
     payload = {
